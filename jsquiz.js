@@ -1,4 +1,7 @@
-
+function playAudio(){
+    document.getElementById("mp3_src").src = "bckgmusic.mp3";
+    document.getElementById("audio").onload();
+}
 function getResults() {
     var amountCorrect = 0;
     for(var i = 0; i <= 3; i++) {
@@ -20,11 +23,4 @@ function getResults() {
      document.getElementById('results').innerHTML = 
      "Correct answers: " + amountCorrect;
     } //https://teamtreehouse.com/community/javascript-project-simple-quiz-with-radio-buttons
-    var audio, playbtn;
-    function initAudioPlayer() {
-        audio = new Audio();
-        audio.src = "acoustic-folk-music-guitar-141345.mp3";
-        audio.loop = true;
-        audio.play();
-        window.addEventListener("load", initAudioPlayer);
-    }
+    

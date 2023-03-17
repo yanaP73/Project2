@@ -2,12 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-   
+    
+    
     <title>JS Quiz</title>
   </head>
    <body>
-    <div class="container">
+      
+     
+         <div class="container">
     <h1 id="h1">My First JS Quiz</h1><br>
 
     <!--https://teamtreehouse.com/community/javascript-project-simple-quiz-with-radio-buttons-->
@@ -37,11 +41,16 @@
 
     <h2 id="results-h">Score</h2>
         <p id="results"></p>
-
-    </div>
-  
-    <script type="text/javascript" src="jsquiz.js">
+    </div><br><br>
     
+    <div class="audio-container">
+    <audio id="audio" controls>
+      <source id="mp3_src" src="bckgmusic.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    </div>
+    <script type="text/javascript" src="jsquiz.js">
     </script>
+    
     </body>
   </html>
