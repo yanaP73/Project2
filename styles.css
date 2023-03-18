@@ -53,13 +53,13 @@ span {
 
 ol {
     text-align: left;
-    margin-left: 18%;/*https://stackoverflow.com/questions/19364836/how-to-center-ordered-list-number-in-html*/
+    margin-left: 10%;/*https://stackoverflow.com/questions/19364836/how-to-center-ordered-list-number-in-html*/
     font-size: 25px;
     font-weight: bold;
 }
 #hHowTo {
     text-align: left;
-    margin-left: 18%;
+    margin-left: 10%;
     text-decoration: underline;
 }
 footer{
