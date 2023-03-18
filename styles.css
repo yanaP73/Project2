@@ -57,3 +57,12 @@ ol li {
     font-size: 25px;
     font-weight: bold;
 }
+footer{
+    text-align: center;
+    padding: 2px;
+    color: rgb(168, 158, 214);
+    font-size: 15px;
+  }
+  footer p {
+    
+  }
