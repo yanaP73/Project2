@@ -32,9 +32,10 @@
 span {
     font-size: 18px;
 }
-.submit{
+.submit {
     font-size: 18px;
     font-family: 'Trebuchet MS';
+    color: #f2f2f2;
     font-weight: bold;
     width: 20ch;
     height: 6ch;
@@ -45,6 +46,14 @@ span {
  
 .audio-container {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }/*https://stackoverflow.com/questions/55126972/how-to-centre-center-html-audio-player-to-middle-of-webpage*/
+
+
+ol li {
+    text-align: left;
+    margin-left: 35%;/*https://stackoverflow.com/questions/19364836/how-to-center-ordered-list-number-in-html*/
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -24,3 +24,4 @@ function getResults() {
      "Correct answers: " + amountCorrect;
     } //https://teamtreehouse.com/community/javascript-project-simple-quiz-with-radio-buttons
     
+    
