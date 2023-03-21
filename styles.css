@@ -1,71 +1,71 @@
-.menu {
-    background: radial-gradient(circle, rgba(47,227,225,1) 0%, rgba(13,187,191,1) 50%, rgba(11,128,139,1) 100%);;
-    overflow: hidden;
-  }
+  .menu {
+      background: radial-gradient(circle, rgba(47,227,225,1) 0%, rgba(13,187,191,1) 50%, rgba(11,128,139,1) 100%);;
+      overflow: hidden;
+    }
 
-.menu a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: 'Trebuchet MS';
-    font-weight: bold;
+  .menu a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: 'Trebuchet MS';
+      font-weight: bold;
+    }
+  .menu a:hover {
+      background-color:rgb(124, 232, 230);
+      color: rgba(60, 58, 58, 0.423);
+    }
+  .menu a.active {
+      background-color: rgb(124, 232, 230);
+      color: white;
+    }
+  .container {
+      text-align: center;
+      font-family: 'Trebuchet MS';
   }
-.menu a:hover {
-    background-color:rgb(124, 232, 230);
-    color: rgba(60, 58, 58, 0.423);
+  .question {
+      font-weight:bold;
+      font-size: 20px;
   }
-.menu a.active {
-    background-color: rgb(124, 232, 230);
-    color: white;
+  span {
+      font-size: 18px;
   }
-.container {
-    text-align: center;
-    font-family: 'Trebuchet MS';
- }
-.question {
-    font-weight:bold;
-    font-size: 20px;
-}
-span {
-    font-size: 18px;
-}
-.submit {
-    font-size: 18px;
-    font-family: 'Trebuchet MS';
-    color: #f2f2f2;
-    font-weight: bold;
-    width: 20ch;
-    height: 6ch;
-    border-radius: 3%;
-    background: radial-gradient(circle, rgba(47,227,225,1) 0%, rgba(13,187,191,1) 50%, rgba(11,128,139,1) 100%);
-    /*https://cssgradient.io/*/
-}
- 
-.audio-container {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}/*https://stackoverflow.com/questions/55126972/how-to-centre-center-html-audio-player-to-middle-of-webpage*/
-
-
-ol {
-    text-align: left;
-    margin-left: 10%;/*https://stackoverflow.com/questions/19364836/how-to-center-ordered-list-number-in-html*/
-    font-size: 25px;
-    font-weight: bold;
-}
-#hHowTo {
-    text-align: left;
-    margin-left: 10%;
-    text-decoration: underline;
-}
-footer{
-    text-align: center;
-    padding: 2px;
-    color: rgb(168, 158, 214);
-    font-size: 15px;
+  .submit {
+      font-size: 18px;
+      font-family: 'Trebuchet MS';
+      color: #f2f2f2;
+      font-weight: bold;
+      width: 20ch;
+      height: 6ch;
+      border-radius: 3%;
+      background: radial-gradient(circle, rgba(47,227,225,1) 0%, rgba(13,187,191,1) 50%, rgba(11,128,139,1) 100%);
+      /*https://cssgradient.io/*/
   }
   
+  .audio-container {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+  }/*https://stackoverflow.com/questions/55126972/how-to-centre-center-html-audio-player-to-middle-of-webpage*/
+
+
+  ol {
+      text-align: left;
+      margin-left: 10%;/*https://stackoverflow.com/questions/19364836/how-to-center-ordered-list-number-in-html*/
+      font-size: 25px;
+      font-weight: bold;
+  }
+  #hHowTo {
+      text-align: left;
+      margin-left: 10%;
+      text-decoration: underline;
+  }
+  footer{
+      text-align: center;
+      padding: 2px;
+      color: rgb(168, 158, 214);
+      font-size: 15px;
+    }
+    

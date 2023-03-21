@@ -41,6 +41,28 @@ How To page provides an instruction on how to do the quiz.
 </li>
 </ol>
 
+### Validation
+<p>I ran my code through code validation& quality tools.</p> 
+
+#### HTML
+ - The type attribute (type="text/javascript") is unnecessary for JavaScript resources.
+Solution: Deleted the attribute.
+</li>
+
+#### CSS
+<p>No errors found.</p>
+
+#### Javacript
+
+ - 'document' was used before it was defined. (document.getElementById("mp3_src").src = "bckgmusic.mp3";)<br>
+ Solution: Included /*global document: false */ at the beginning of the code.
+
+ - Use the function form of "use strict".<br>
+ Solution: Included the statement "use strict"; at the first statement in each function.
+
+ - Unexpected 'let'. (for (let i = 1; i <= 3; i++)) <br>
+  Solution: None
+
 ### Deployment
 
 This website was created using Visual Studio Code, a local git directory was used for version control, and then pushed to GitHub. 
