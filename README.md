@@ -45,7 +45,7 @@ How To page provides an instruction on how to do the quiz.
 <p>I ran my code through code validation& quality tools. Please see following errors below:</p> 
 
 #### HTML
- - The type attribute (type="text/javascript") is unnecessary for JavaScript resources.
+ - The type attribute (type="text/javascript") is unnecessary for JavaScript resources.<br>
 Solution: Deleted the attribute.
 </li>
 
