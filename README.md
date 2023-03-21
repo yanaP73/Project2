@@ -42,7 +42,7 @@ How To page provides an instruction on how to do the quiz.
 </ol>
 
 ### Validation
-<p>I ran my code through code validation& quality tools.</p> 
+<p>I ran my code through code validation& quality tools. Please see following errors below:</p> 
 
 #### HTML
  - The type attribute (type="text/javascript") is unnecessary for JavaScript resources.
@@ -50,7 +50,7 @@ Solution: Deleted the attribute.
 </li>
 
 #### CSS
-<p>No errors found.</p>
+ - No errors found.
 
 #### Javacript
 
