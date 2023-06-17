@@ -1,7 +1,7 @@
 # Project2
 # Yana’s Responsive Website Project
-This project is a responsive website including all skills learnt throughout the course so far. 
-It is a simple quiz which incudes JavaScript for its functionality.
+This project is a responsive website including all skills learned throughout the course so far. 
+It is a simple quiz that incudes JavaScript for its functionality.
 The website is very simple and easy to navigate.
 It allows the user to control audio using the audio player on each page.
 How To page provides an instruction on how to do the quiz.
@@ -28,21 +28,21 @@ How To page provides an instruction on how to do the quiz.
 
 <ol>
 <li><h4>Navigation Menu</h4>
-<p>Does the Navigation Menu work smoothly and align with the sites design?</p>
+<p>Does the Navigation Menu work smoothly and align with the site's design?</p>
 <p>When clicking on the Menu links, does it open an appropriate page</p>
 </li>
 <li><h4>Enquire Form</h4>
-<p>Try to click on radio buttons of wrong answers to see that the text is highlghted red</p>
-<p>Try to click on radio buttons of all correct answers to see that the text is highlghted green</p>
-<p>Try to leave all radio buttons unclicked to see that the text is highlghted red</p>
-<p>Try to click on all buttons on music player to make sure all the functions of music player work</p></li>
+<p>Try to click on the radio buttons of wrong answers to see that the text is highlighted red</p>
+<p>Try to click on the radio buttons of all correct answers to see that the text is highlighted green</p>
+<p>Try to leave all radio buttons unclicked to see that the text is highlighted red</p>
+<p>Try to click on all buttons on the music player to make sure all the functions of the music player work</p></li>
 <li><h4>Viewing on a mobile and tablet</h4>
-<p>Please confirm that when you view my quiz on a mobile or tablet, the site has good spacing, not too much content and is easy to use on all devices.</p>
+<p>Please confirm that when you view my quiz on a mobile or tablet, the site has good spacing, not too much content, and is easy to use on all devices.</p>
 </li>
 </ol>
 
-### Validation
-<p>I ran my code through code validation& quality tools. Please see following errors below:</p> 
+
+<p>I ran my code through code validation& quality tools. Please see the following errors below:</p> 
 
 #### HTML
  - The type attribute (type="text/javascript") is unnecessary for JavaScript resources.<br>
@@ -52,13 +52,13 @@ Solution: Deleted the attribute.
 #### CSS
  - No errors found.
 
-#### Javacript
+#### Javascript
 
  - 'document' was used before it was defined. (document.getElementById("mp3_src").src = "bckgmusic.mp3";)<br>
  Solution: Included /*global document: false */ at the beginning of the code.
 
  - Use the function form of "use strict".<br>
- Solution: Included the statement "use strict"; at the first statement in each function.
+ Solution: Included the statement "use strict"; in the first statement of each function.
 
  - Unexpected 'let'. (for (let i = 1; i <= 3; i++)) <br>
   Solution: None
@@ -72,7 +72,7 @@ I used 'git commit -m "added in a specific message" to commit my changed files t
 
 ### Media
 
-•	The music incorporated to the quiz webpages was downloaded from Pixabay website. https://pixabay.com/music/search/theme/background%20music/
+•	The music incorporated into the quiz webpages was downloaded from the Pixabay website. https://pixabay.com/music/search/theme/background%20music/
 The mp3 file was free to download.
 
 #### Acknowledgements
